@@ -12,11 +12,11 @@ on:
       set_release:
         description: "RELEASE: focal / bullseye / buster"
         required: false
-        default: "focal"
+        default: "buster"
       set_board:
         description: "BOARD: lepotato / odroidn2"
         required: false
-        default: "lepotato"
+        default: "s905x2"
       more_settings:
         description: "Rebuild: More parameter settings"
         required: false
